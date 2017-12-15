@@ -1,7 +1,7 @@
 # **Proyecto 'Lucas Kids'**
 
 
-----------
+
 
 
 ## Links 
@@ -9,6 +9,6 @@
 * [Usuario CodePen](https://codepen.io/albaMaria/) 
 
 
-----------
+
 ## Descripción
 Mi proyecto consiste en una página web sobre una marca de ropa infantil llamada _**'Lucas Kids'**_
