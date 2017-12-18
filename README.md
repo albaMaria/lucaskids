@@ -12,3 +12,5 @@
 
 ## Descripción
 Mi proyecto consiste en una página web sobre una marca de ropa infantil llamada _**'Lucas Kids'**_
+## Mockup
+![Boceto Lucas Kids](https://github.com/albaMaria/lucaskids/blob/master/img/bocetolucaskids.png "Boceto Lucas Kids")
