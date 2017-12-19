@@ -5,7 +5,7 @@
 
 
 ## Links 
-* [GitHub pages _'Lucas Kids'_](https://albamaria.github.io/proyectoFinalLucasKids/)
+* [GitHub pages _'Lucas Kids'_](https://albamaria.github.io/lucaskids/)
 * [Usuario CodePen](https://codepen.io/albaMaria/) 
 
 
