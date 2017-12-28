@@ -2,6 +2,9 @@
 @import url(https://fonts.googleapis.com/css?family=Maven+Pro:500);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed);
 
+body {
+  margin: 0;
+}
 
 header {
   height: 450px;
@@ -28,9 +31,9 @@ nav a {
   color: white;
   text-decoration: none;
   font-size: 30px;
-  padding: 40px;
-  margin: 25px;
+  padding: 50px;
   padding-bottom: 17px;
+  margin: 25px;
   transition: all 0.2s linear;
 }
 
@@ -39,12 +42,40 @@ nav a:hover {
 }
 
 #pagina {
-  width: 1100px;
+  width: 1250px;
   margin: auto;
 }
 
 .p, p, h2, h3, h4, span, li {
   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#section-home {
+  height: 600px;
+}
+
+#section-galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background-image: url(https://cdn.pixabay.com/photo/2017/04/14/04/36/boy-2229297_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section-galeria a {
+  font-size: 100px;
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 20px black;
+  padding: 40px;
+  transition: all 0.2s linear;
+}
+
+#section-galeria a:hover {
+  font-size: 105px;
+  text-shadow: 0 0 20px rgb(70, 70, 70);
 }
 
 footer {
