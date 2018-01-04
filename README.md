@@ -14,7 +14,7 @@ CodePen | https://codepen.io/albaMaria/ | Usuario CodePen
 Slack | https://eoifrontend.slack.com/messages/D8GTDTW02/team/U8G7YBJKS/ | Usuario Slack *EOI Frontend* 
 
 ## Herramientas utilizadas
-Web | Enlace | Descripción
+Herramienta | Enlace | Descripción
 ------------ | ------------- | -------------
 Atom | http://atom.io/| Editor de texto
 Color picker | https://atom.io/packages/color-picker | Plugin para seleccionar color
