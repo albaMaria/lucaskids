@@ -97,7 +97,7 @@ a .icons-encabezado {
   color: rgb(18, 17, 17);
 }
 
-#section-quienes-somos .container-box {
+#section-quienes-somos .container-box-quienes-somos {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -133,7 +133,48 @@ a .icons-encabezado {
   text-shadow: 0 0 5px lightgrey;
 }
 
+#section-faq {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+  height: 750px;
+  background-image: url(https://images.unsplash.com/photo-1475234561019-11e030717c51?auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+#section-faq h2 {
+  font-size: 100px;
+  margin-left: 150px;
+  margin-bottom: 278px;
+  color: rgb(47, 69, 125);
+  text-shadow: 1px 1px 10px rgb(28, 41, 77);
+}
+
+.container-box-faq {
+  width: 1500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.box-faq {
+  width: 460px;
+  height: 180px;
+  margin: 15px;
+  padding: 8px;
+  font-size: 17px;
+  text-align: center;
+  background-color: rgba(153, 151, 151, 0.26);
+  transition: all 0.4s linear;
+}
+
+.box-faq:hover {
+  box-shadow: 0 0 20px rgba(102, 101, 100, 0.78);
+}
 
 footer {
   background-color: rgba(142, 142, 142, 0.63);
