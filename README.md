@@ -9,7 +9,7 @@ En mi caso, mi proyecto es sobre una tienda de ropa infantil llamada _**Lucas Ki
 ## Links
 Web | Enlace | Descripción
 ------------ | ------------- | -------------
-GitHub | https://albamaria.github.io/proyectoFinalLucasKids/ | GitHub pages _'Lucas Kids'_ 
+GitHub | https://albamaria.github.io/lucaskids/ | GitHub pages _'Lucas Kids'_ 
 CodePen | https://codepen.io/albaMaria/ | Usuario CodePen 
 Slack | https://eoifrontend.slack.com/messages/D8GTDTW02/team/U8G7YBJKS/ | Usuario Slack *EOI Frontend* 
 
