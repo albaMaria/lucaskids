@@ -47,11 +47,11 @@ Franz Sans | http://www.franzsans.de/
 Orchestra | https://es.shop-orchestra.com/
 
 ## Mockups
-**Fase 1: Boceto inicial de la página**
+### **Fase 1: Boceto inicial de la página**
 
 ![Boceto fase 1 inicial Lucas Kids](https://github.com/albaMaria/lucaskids/blob/master/img/bocetolucaskidsinicial.png "Boceto Lucas Kids fase 1")
 
-**Fase 2**
+### **Fase 2**
 
 Cambio | Descripción
 ------------ | ------------- 
