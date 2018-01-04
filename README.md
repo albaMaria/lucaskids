@@ -48,12 +48,15 @@ Orchestra | https://es.shop-orchestra.com/
 
 ## Mockups
 **Fase 1: Boceto inicial de la página**
+
 ![Boceto fase 1 inicial Lucas Kids](https://github.com/albaMaria/lucaskids/blob/master/img/bocetolucaskidsinicial.png "Boceto Lucas Kids fase 1")
+
 **Fase 2**
 
 Cambio | Descripción
 ------------ | ------------- 
 Menu nav | Se añade la sección _**FAQ**_ para las aclaraciones en cuanto a las compras online y devoluciones
+
 
 ![Boceto fase 2 Lucas Kids](https://github.com/albaMaria/lucaskids/blob/master/img/bocetolucaskids.png "Boceto Lucas Kids fase 2")
 
