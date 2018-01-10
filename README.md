@@ -63,3 +63,7 @@ Menu nav | Se añade la sección _**FAQ**_ para las aclaraciones en cuanto a las
 ## Responsive
 ### **Tablet**
 ![responsive tablet Lucas Kids](https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/bocetoResponsiveTablet.png "Boceto responsive tablet")
+
+### **Móvil**
+![responsive movil Lucas Kids](https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/bocetoResponsiveMovil.png "Boceto responsive movil")
+
