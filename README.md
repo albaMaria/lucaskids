@@ -60,3 +60,6 @@ Menu nav | Se añade la sección _**FAQ**_ para las aclaraciones en cuanto a las
 
 ![Boceto fase 2 Lucas Kids](https://github.com/albaMaria/lucaskids/blob/master/img/bocetolucaskids.png "Boceto Lucas Kids fase 2")
 
+## Responsive
+### **Tablet**
+![responsive tablet Lucas Kids](https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/bocetoResponsiveTablet.png "Boceto responsive tablet")
