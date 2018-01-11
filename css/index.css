@@ -55,7 +55,24 @@ a .icons-encabezado {
 }
 
 #section-home {
-  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container-home {
+  background-color: blue;
+  width: 1000px;
+  height: 667px;
+  margin: auto;
+}
+.formulario {
+  background-color: red;
+  width: 300px;
+  height: 400px;
+  margin: auto;
 }
 
 #section-galeria {
@@ -216,6 +233,10 @@ margin-top: 100px;
 
 .icon-contacto {
   font-size: 19px;
+}
+
+#pagina li {
+  list-style-type: none;
 }
 
 footer {
