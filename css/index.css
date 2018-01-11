@@ -57,17 +57,14 @@ a .icons-encabezado {
 #section-home {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   padding-top: 100px;
   margin-bottom: 100px;
 }
 
-.container-home {
-  background-color: blue;
-  width: 1000px;
-  height: 667px;
-  margin: auto;
+.slider-home {
+  max-width: 1000px;
 }
+
 .formulario {
   background-color: red;
   width: 300px;
