@@ -5,4 +5,5 @@ $(document).ready(function() {
     dots: true,
     arrows: false,
   });
+  AOS.init();
 })
