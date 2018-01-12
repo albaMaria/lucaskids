@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
 @import url('https://fonts.googleapis.com/css?family=Maven+Pro:500');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
 
 
 body {
@@ -51,10 +51,15 @@ a .icons-encabezado {
 }
 
 p, span, li {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1px;
 }
 
-h2, h3, h4 {
+.box-faq h4 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.p, h2, h3, h4 {
   font-family: 'Maven Pro', sans-serif;
 }
 
@@ -66,7 +71,13 @@ h2, h3, h4 {
 }
 
 .slider-home {
-  max-width: 1000px;
+  max-width: 1060px;
+  min-height: 780px;
+  padding-top: 30px;
+  padding-left: 30px;
+  paddint-right: 30px;
+  padding-bottom: 50px;
+  box-shadow: 1px 1px 10px grey;
 }
 
 .formulario {
@@ -84,6 +95,7 @@ h2, h3, h4 {
   background-image: url(https://images.unsplash.com/photo-1489702932289-406b7782113c?auto=format&fit=crop&w=1352&q=80);
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 0 10px black;
 }
 
 #section-galeria a {
@@ -114,6 +126,7 @@ h2, h3, h4 {
   font-size: 20px;
   text-shadow: 0 0 1px rgb(98, 97, 97);
   color: rgb(18, 17, 17);
+  box-shadow: 0 0 10px rgb(97, 96, 96);
 }
 
 #section-quienes-somos .container-box-quienes-somos {
@@ -160,6 +173,7 @@ h2, h3, h4 {
   background-image: url(https://images.unsplash.com/photo-1475234561019-11e030717c51?auto=format&fit=crop&w=1350&q=80);
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 0 10px rgb(97, 96, 96);
 }
 
 #section-faq h2 {
@@ -184,7 +198,7 @@ h2, h3, h4 {
   height: 180px;
   margin: 15px;
   padding: 8px;
-  font-size: 17px;
+  font-size: 24px;
   text-align: center;
   background-color: rgba(153, 151, 151, 0.26);
   transition: all 0.4s linear;
@@ -220,7 +234,7 @@ margin-top: 100px;
 
 .container-contacto {
   color: rgb(52, 52, 52);
-  font-size: 18px;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
