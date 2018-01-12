@@ -73,10 +73,7 @@ p, span, li {
 .slider-home {
   max-width: 1060px;
   min-height: 780px;
-  padding-top: 30px;
-  padding-left: 30px;
-  paddint-right: 30px;
-  padding-bottom: 50px;
+  padding: 30px 30px 50px 30px;
   box-shadow: 1px 1px 10px grey;
 }
 
