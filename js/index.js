@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+  $('.cookie-message').cookieBar({ closeButton : '.my-close-button' });
+
+
   $('.slider-home').slick({
     autoplay: true,
     autoplaySpeed: 2200,
