@@ -8,6 +8,7 @@ body {
 }
 
 header {
+  width: 100%;
   height: 450px;
   display: flex;
   align-items: center;
@@ -89,7 +90,7 @@ p, span, li {
   justify-content: center;
   align-items: center;
   height: 750px;
-  background-image: url(https://images.unsplash.com/photo-1489702932289-406b7782113c?auto=format&fit=crop&w=1352&q=80);
+  background-image: url(https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/img-galeria.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 0 10px black;
@@ -114,7 +115,7 @@ p, span, li {
   flex-direction: column;
   align-items: center;
   height: 600px;
-  background-image: url(https://images.unsplash.com/photo-1490124202977-5cf3173f72b2?auto=format&fit=crop&w=1351&q=80);
+  background-image: url(https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/img-quienes-somos.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px;
@@ -167,7 +168,7 @@ p, span, li {
   align-items: center;
   margin-top: 100px;
   height: 750px;
-  background-image: url(https://images.unsplash.com/photo-1475234561019-11e030717c51?auto=format&fit=crop&w=1350&q=80);
+  background-image: url(https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/img-faq.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 0 10px rgb(97, 96, 96);
@@ -199,7 +200,7 @@ p, span, li {
   text-align: center;
   background-color: rgba(153, 151, 151, 0.26);
   transition: all 0.4s linear;
-  border-radius: 3%;
+  border-radius: 10px;
 }
 
 .box-faq:hover {
@@ -250,7 +251,39 @@ margin-top: 100px;
   list-style-type: none;
 }
 
+.menu-galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 35px;
+  background-color: rgb(177, 151, 214);
+  width: 170px;
+  height: 400px;
+  margin: 30px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 7px rgb(180, 180, 180);
+  border-radius: 10px;
+}
+
+.menu-galeria a {
+  background-color: rgb(241, 224, 249);
+  border-radius: 10px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  color: rgb(101, 101, 101);;
+}
+
+.menu-galeria a:hover {
+  transition: all 0.2s linear;
+  box-shadow: 0 0 15px rgb(78, 78, 78);
+  background-color: white;
+}
+
 footer {
+  width: 100%;
   background-color: rgba(142, 142, 142, 0.63);
   color: rgb(69, 69, 69);
   text-align: center;
@@ -270,6 +303,7 @@ footer {
   z-index: 5;
   background-color: rgba(138, 138, 138, 0.41);
   padding: 5px;
+  box-shadow: 0 0 7px rgb(55, 55, 55);
 }
 
 .popupCookie {
