@@ -207,13 +207,31 @@ p, span, li {
   box-shadow: 0 0 20px rgba(102, 101, 100, 0.78);
 }
 
-.sobre-de-atras {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  width: 500px;
+.sobre-detras {
+  position: relative;
+  top: -10px;
+  z-index: 1;
+  margin: auto;
+  margin-top: 100px;
+  width: 600px;
+}
+
+.papel {
+  width: 380px;
   height: 400px;
-  background-color: pink;
+  background-color: rgb(195, 195, 195);
+  border: 10px solid black;
+  margin: auto;
+  position: relative;
+  top: -110px;
+  z-index: 1;
+}
+
+.sobre-delante {
+  width: 600px;
+  margin: auto;
+  position: relative;
+  z-index: 5;
 }
 
 #section-contacto h3 {
@@ -223,19 +241,6 @@ p, span, li {
   margin-bottom: 1px;
   margin-top: 1px;
   letter-spacing: 5px;
-}
-
-.container-contacto {
-  color: rgb(52, 52, 52);
-  font-size: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 450px;
-  height: 200px;
-  margin-bottom: 200px;
-  text-align: center;
-  letter-spacing: 1px;
 }
 
 .icon-contacto {
@@ -284,6 +289,7 @@ footer {
   text-align: center;
   padding: 20px;
   font-size: 18px;
+  margin-top: 50px;
 }
 
 .cookie-message {
