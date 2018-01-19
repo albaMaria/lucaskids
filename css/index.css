@@ -47,7 +47,7 @@ a .icons-encabezado {
 }
 
 #pagina {
-  width: 75%;
+  width: 1500px;
   margin: auto;
 }
 
@@ -218,7 +218,7 @@ p, span, li {
   margin: auto;
   margin-top: 100px;
   width: 600px;
-  right: -400px;
+  right: -444px;
 }
 
 .papel {
@@ -231,13 +231,14 @@ p, span, li {
   background-color: rgb(213, 213, 213);
   border: 10px solid black;
   margin: auto;
-  right: 580px;
+  right: 595px;
   box-shadow: 0 0 20px black;
   transition: all 1s linear;
 }
 
 .papel:hover {
   top: -70px;
+
 }
 
 .sobre-delante {
