@@ -48,9 +48,18 @@
         </div>
       </div>
 
-      <div class="formulario">
-
-      </div>
+        <form class="form-home" name="form-home" action="index.html" method="post">
+          <p><i class="fas fa-bullhorn"></i> ¡Dinos tu nombre y correo y te envíaremos las mejores ofertas!</p>
+          <label>
+          <span>Nombre</span>
+          <input type="text" name="nombre" value="" required pattern="[A-Za-z]+">
+          </label>
+          <label>
+          <span>Correo electrónico</span>
+          <input type="email" name="email" value="" placeholder="ejemplo@ejemplo.com" required>
+          </label>
+          <input class="button button-highlight button-rounded button-large" type="submit" name="button" value="Enviar">
+        </form>
     </section>
     <section id="section-galeria" data-aos="zoom-in" data-aos-offset="500">
       <a class="p" href="pages/galeria.html">Ver galería</a>

@@ -78,11 +78,39 @@ p, span, li {
   box-shadow: 1px 1px 10px grey;
 }
 
-.formulario {
-  background-color: red;
+form {
+  font-size: 35px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  margin: 60px;
+  border: 2px dashed rgb(113, 113, 113);
+  background-color: rgb(255, 251, 168);
+  box-shadow: 0 0 10px rgb(172, 172, 172);
+}
+form p {
+  text-shadow: 0 0 5px rgb(167, 167, 167);
+}
+
+form span, input {
+  color: rgb(47, 47, 47);
+  margin: 10px;
   width: 300px;
-  height: 400px;
+  height: 40px;
+}
+
+form .button {
+  font-size: 40px;
   margin: auto;
+  height: 80px;
+  box-shadow: 0 0 10px rgb(150, 150, 150);
+}
+
+form input {
+  font-size: 20px;
 }
 
 #section-galeria {
@@ -228,7 +256,7 @@ p, span, li {
   height: 400px;
   position: relative;
   z-index: 1;
-  background-color: rgb(213, 213, 213);
+  background-color: rgb(235, 232, 232);
   border: 10px solid black;
   margin: auto;
   right: 595px;
@@ -303,7 +331,6 @@ p, span, li {
 }
 
 footer {
-  width: 100%;
   background-color: rgba(142, 142, 142, 0.63);
   color: rgb(69, 69, 69);
   text-align: center;
