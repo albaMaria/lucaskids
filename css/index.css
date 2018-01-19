@@ -207,31 +207,46 @@ p, span, li {
   box-shadow: 0 0 20px rgba(102, 101, 100, 0.78);
 }
 
+#section-contacto {
+  display: flex;
+  flex-direction: row;
+}
+
 .sobre-detras {
   position: relative;
-  top: -10px;
-  z-index: 1;
+  z-index: -1;
   margin: auto;
   margin-top: 100px;
   width: 600px;
+  right: -400px;
 }
 
 .papel {
-  width: 380px;
+  font-size: 25px;
+  text-align: center;
+  width: 400px;
   height: 400px;
-  background-color: rgb(195, 195, 195);
+  position: relative;
+  z-index: 1;
+  background-color: rgb(213, 213, 213);
   border: 10px solid black;
   margin: auto;
-  position: relative;
-  top: -110px;
-  z-index: 1;
+  right: 580px;
+  box-shadow: 0 0 20px black;
+  transition: all 1s linear;
+}
+
+.papel:hover {
+  top: -70px;
 }
 
 .sobre-delante {
-  width: 600px;
   margin: auto;
   position: relative;
+  top: 0px;
   z-index: 5;
+  right: 137px;
+  top: 150px;
 }
 
 #section-contacto h3 {
@@ -245,6 +260,10 @@ p, span, li {
 
 .icon-contacto {
   font-size: 19px;
+}
+
+#section-contacto {
+  padding: 0;
 }
 
 #pagina li {
