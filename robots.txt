@@ -1,2 +1,6 @@
 User-agent: *
 Disallow: 
+
+#Sitemaps
+
+Sitemap: https://raw.githubusercontent.com/albaMaria/lucaskids/master/sitemap.xml
