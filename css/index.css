@@ -7,6 +7,8 @@ body {
   margin: 0;
 }
 
+/*ENCABEZADO + MENU NAV */
+
 header {
   width: 100%;
   height: 450px;
@@ -51,6 +53,8 @@ a .icons-encabezado {
   margin: auto;
 }
 
+/*FUENTES*/
+
 p, span, li {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   letter-spacing: 1px;
@@ -63,6 +67,8 @@ p, span, li {
 .p, h2, h3, h4 {
   font-family: 'Maven Pro', sans-serif;
 }
+
+/*SECCIÓN HOME*/
 
 #section-home {
   display: flex;
@@ -114,6 +120,8 @@ form input {
   font-size: 20px;
 }
 
+/*SECCIÓN GALERIA*/
+
 #section-galeria {
   display: flex;
   justify-content: center;
@@ -138,6 +146,8 @@ form input {
   font-size: 155px;
   text-shadow: 0 0 20px rgb(70, 70, 70);
 }
+
+/*SECCIÓN QUIENES SOMOS*/
 
 #section-quienes-somos {
   display: flex;
@@ -191,6 +201,8 @@ form input {
   text-shadow: 0 0 5px lightgrey;
 }
 
+/*SECCIÓN FAQ*/
+
 #section-faq {
   display: flex;
   flex-direction: row;
@@ -236,6 +248,8 @@ form input {
   box-shadow: 0 0 20px rgba(102, 101, 100, 0.78);
 }
 
+/*SECCIÓN CONTACTO*/
+
 #section-contacto {
   display: flex;
   flex-direction: row;
@@ -251,6 +265,7 @@ form input {
 }
 
 .papel {
+  cursor: pointer;
   font-size: 25px;
   text-align: center;
   width: 400px;
@@ -297,9 +312,13 @@ form input {
   padding: 0;
 }
 
+/* GALERIA.HTML*/
+
 #pagina li {
   list-style-type: none;
 }
+
+/*MENÚ DE SECCIONES ROPA*/
 
 .menu-galeria {
   display: flex;
@@ -333,6 +352,8 @@ form input {
   background-color: white;
 }
 
+/* CONTENIDO DE LAS SECCIONES*/
+
 .contenido-padre {
   display: flex;
   flex-direction: row;
@@ -362,6 +383,8 @@ form input {
   display: none;
 }
 
+/*FOOTER*/
+
 footer {
   background-color: rgba(142, 142, 142, 0.63);
   color: rgb(69, 69, 69);
@@ -370,6 +393,8 @@ footer {
   font-size: 18px;
   margin-top: 50px;
 }
+
+/*COOKIES*/
 
 .cookie-message {
   color: rgb(1, 1, 1);
