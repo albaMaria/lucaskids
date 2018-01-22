@@ -1,6 +1,10 @@
 $(document).ready(function() {
 
+  /*COOKIES*/
+
   $('.cookie-message').cookieBar({ closeButton : '.my-close-button' });
+
+  /*SLIDERS*/
 
   $('.slider-home').slick({
     autoplay: true,
@@ -9,11 +13,18 @@ $(document).ready(function() {
     arrows: false,
     variableWidth: true,
   });
+
+  /*AOS js*/
+
   AOS.init();
+
+  /* SCROLL */
 
   var scroll = new SmoothScroll('a[href*="#"]');
 
 })
+
+/* Carga de contenido de secciones en galeria.html con el menú*/
 
 function cargaContenido(seccion) {
   switch (seccion) {
