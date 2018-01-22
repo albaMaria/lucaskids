@@ -32,9 +32,14 @@ Trello | https://trello.com/ | Para organizar el trabajo
 Color Palette Generator | http://www.degraeve.com/color-palette/ | Para combinaciones de color
 LibreStock | https://librestock.com/ | Imágenes gratis
 FontCDN | https://fontcdn.org/ | Fuentes
-Font Awesome | https://fontawesome.com/ | Iconos 
+Font Awesome | https://fontawesome.com/ | Librería de iconos 
 Mastering MarkDown | https://guides.github.com/features/mastering-markdown/ | Apuntes para MarkDown
 One page love | https://onepagelove.com/ | Búsqueda de referencias
+AOS | http://michalsnik.github.io/aos/ | Librería de scroll
+Slick | http://kenwheeler.github.io/slick/ | Librería carousel
+Buttons | http://unicorn-ui.com/buttons/ | Librería de botones
+JQuery | https://jquery.com/ | Librería JS
+CookieBar | https://carlwoodhouse.github.io/jquery.cookieBar/ | Librería creación de cookies
 
 ## Referencias
 Web | Enlace 
