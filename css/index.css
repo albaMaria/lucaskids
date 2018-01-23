@@ -361,21 +361,21 @@ form input {
 }
 
 .contenido-seccion {
-  width:100%;
-  height: 600px;
+  width:70%;
+  height: 550px;
 }
 
-
-.seccion-ninio {
-  background-color: yellow;
+.img-slider {
+  margin: 30px;
 }
 
-.seccion-ninia {
-  background-color: green;
+.img-slider img {
+  max-height: 400px;
+  box-shadow: 0 0 7px rgb(118, 119, 116);
+  border-radius: 2px;
 }
 
 .seccion-bebe, .seccion-ninio, .seccion-ninia {
-  height: 500px;
   display: none;
 }
 
