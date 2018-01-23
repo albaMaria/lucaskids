@@ -365,11 +365,11 @@ form input {
   height: 550px;
 }
 
-.img-slider {
+.img-slider-galeria {
   margin: 30px;
 }
 
-.img-slider img {
+.img-slider-galeria img {
   max-height: 400px;
   box-shadow: 0 0 7px rgb(118, 119, 116);
   border-radius: 2px;
