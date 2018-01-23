@@ -14,6 +14,15 @@ $(document).ready(function() {
     variableWidth: true,
   });
 
+  $('.slider-secciones').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true,
+});
+
   /*AOS js*/
 
   AOS.init();
