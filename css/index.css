@@ -395,6 +395,14 @@ footer {
   font-size: 18px;
 }
 
+.elevator-button {
+  color: rgb(218, 138, 110);
+  font-size: 60px;
+  text-align: right;
+  margin-right: 30px;
+  text-shadow: 0 0 5px rgb(149, 146, 146);
+}
+
 /*COOKIES*/
 
 .cookie-message {

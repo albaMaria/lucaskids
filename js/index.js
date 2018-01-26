@@ -46,6 +46,13 @@ $(document).ready(function() {
 
 /* Carga de contenido de secciones en galeria.html con el menú*/
 
+window.onload = function() {
+var elevator = new Elevator({
+  element: document.querySelector('.elevator-button'),
+  duration: 1000 // milliseconds
+});
+}
+
 function cargaContenido(seccion) {
   switch (seccion) {
     case 'seccion-bebe':
