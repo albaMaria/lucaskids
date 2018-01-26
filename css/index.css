@@ -115,11 +115,7 @@ form span, input {
 }
 
 form label {
-  text-align: right;
-}
-
-form label span {
-  margin-right: 20px;
+  text-align: center;
 }
 
 form .button {
@@ -473,7 +469,7 @@ footer {
   .box-faq {
     width:300px;
     height: 135px;
-    font-size: 18px
+    font-size: 18px;
     margin: 10px;
   }
   .container-box-faq {
