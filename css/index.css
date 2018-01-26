@@ -5,13 +5,14 @@
 
 body {
   margin: 0;
+  background-color: rgb(217, 216, 216);
 }
 
 /*ENCABEZADO + MENU NAV */
 
 header {
   width: 100%;
-  height: 450px;
+  min-height: 210px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -21,8 +22,8 @@ header {
 
 header h1 {
   font-family: 'Gochi Hand', cursive;
-  letter-spacing: 5px;
-  font-size: 250px;
+  letter-spacing: 45px;
+  font-size: 80px;
   color: white;
   margin: 0px;
 }
@@ -31,7 +32,7 @@ nav a {
   font-family: 'Maven Pro', sans-serif;
   color: white;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
   padding: 25px;
   padding-bottom: 17px;
   margin: 25px;
@@ -39,18 +40,20 @@ nav a {
 }
 
 nav a:hover {
-  text-shadow: 0 0 10px rgb(28, 17, 5);
+  text-shadow: 0 0 10px rgb(89, 88, 88);
 }
 
 a .icons-encabezado {
-  font-size: 35px;
+  font-size: 25px;
   color: white;
   padding-right: 10px;
 }
 
 #pagina {
-  /* width: 1500px; */
+  background-color: white;
+  max-width: 1360px;
   margin: auto;
+  box-shadow: 0 0 10px rgb(150, 150, 150);
 }
 
 /*FUENTES*/
@@ -72,52 +75,62 @@ p, span, li {
 
 #section-home {
   display: flex;
-  flex-direction: row;
-  padding-top: 100px;
-  margin-bottom: 100px;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
 
-.slider-home {
-  max-width: 790px;
-  margin: 50px;
-  min-height: 780px;
-  padding: 30px 30px 50px 30px;
-  box-shadow: 1px 1px 10px grey;
+.swiper-container {
+  max-width: 77%;
+  max-height: 450px;
+}
+
+.swiper-slide img {
+  max-width: 100%;
 }
 
 form {
-  font-size: 35px;
-  padding: 20px;
+  font-size: 25px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  width: 500px;
-  height: 600px;
-  text-align: center;
-  margin: 60px;
+  max-width: 500px;
+  height: 250px;
+  margin: auto;
+  margin-top: 30px;
   border: 2px dashed rgb(113, 113, 113);
-  background-color: rgb(255, 251, 168);
   box-shadow: 0 0 10px rgb(172, 172, 172);
 }
 form p {
   text-shadow: 0 0 5px rgb(167, 167, 167);
+  text-align: center;
+  margin: 5px;
 }
 
 form span, input {
+  font-size: 20px;
   color: rgb(47, 47, 47);
-  margin: 10px;
+  margin: 5px;
   width: 300px;
-  height: 40px;
+  height: 30px;
+}
+
+form label {
+  text-align: right;
+}
+
+form label span {
+  margin-right: 20px;
 }
 
 form .button {
-  font-size: 40px;
+  font-size: 18px;
   margin: auto;
-  height: 80px;
+  height: 50px;
   box-shadow: 0 0 10px rgb(150, 150, 150);
 }
 
 form input {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /*SECCIÓN GALERIA*/
@@ -159,7 +172,6 @@ form input {
   background-size: cover;
   padding: 50px;
   padding-top: 20px;
-  margin-top: 100px;
   font-size: 20px;
   text-shadow: 0 0 1px rgb(98, 97, 97);
   color: rgb(18, 17, 17);
@@ -207,7 +219,6 @@ form input {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 100px;
   height: 750px;
   background-image: url(https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/img-faq.jpg);
   background-repeat: no-repeat;
@@ -233,11 +244,11 @@ form input {
 }
 
 .box-faq {
-  width: 460px;
+  width: 360px;
   height: 180px;
   margin: 15px;
   padding: 8px;
-  font-size: 24px;
+  font-size: 22px;
   text-align: center;
   background-color: rgba(153, 151, 151, 0.26);
   transition: all 0.4s linear;
@@ -257,7 +268,6 @@ form input {
 
 .sobre-detras {
   position: relative;
-  z-index: -1;
   margin: auto;
   margin-top: 100px;
   width: 600px;
@@ -275,7 +285,7 @@ form input {
   background-color: rgb(235, 232, 232);
   border: 10px solid black;
   margin: auto;
-  right: 595px;
+  right: 490px;
   top: 0;
   box-shadow: 0 0 20px black;
   transition: all 0.3s linear;
@@ -291,7 +301,7 @@ form input {
   position: relative;
   top: 0px;
   z-index: 5;
-  right: 137px;
+  right: 70px;
   top: 150px;
 }
 
@@ -387,7 +397,6 @@ footer {
   text-align: center;
   padding: 20px;
   font-size: 18px;
-  margin-top: 50px;
 }
 
 /*COOKIES*/
@@ -410,4 +419,182 @@ footer {
 .popupCookie {
   width: 500px;
   height: 800px;
+}
+
+/* BREAKPOINTS */
+
+@media screen and (max-width: 1150px) {
+  nav a {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1296px) {
+  #section-quienes-somos .box-quienes-somos {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .box-faq {
+    width: 260px;
+    font-size: 20px;
+  }
+
+  #section-quienes-somos .box-quienes-somos {
+    width: 280px;
+  }
+}
+
+/* RESPONSIVE TABLETS */
+
+@media screen and (max-width: 1000px) {
+  #section-quienes-somos .box-quienes-somos {
+    font-size: 18px;
+    width: 200px;
+  }
+  header h1 {
+    letter-spacing: 30px;
+  }
+  nav a {
+    font-size: 15px;
+    padding: 0px;
+    margin: 10px;
+  }
+  #section-faq h2 {
+    font-size: 80px;
+    margin: 20px;
+  }
+  #section-faq {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-faq {
+    width:300px;
+    height: 135px;
+    font-size: 18px
+    margin: 10px;
+  }
+  .container-box-faq {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  form label {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  nav a {
+    font-size: 15px;
+    padding: 0px;
+    margin: 5px;
+  }
+  header h1 {
+    font-size: 70px;
+  }
+  #section-galeria a {
+    font-size: 130px;
+  }
+
+  #section-galeria a:hover {
+    font-size: 135px;
+  }
+  #section-faq h2 {
+    font-size: 90px;
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  header h1 {
+    font-size: 60px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  nav a .icons-encabezado {
+    margin: 15px;
+  }
+
+  #section-galeria a {
+    font-size: 110px;
+  }
+
+  #section-galeria a:hover {
+    font-size: 115px;
+  }
+  #section-quienes-somos div h2 {
+    font-size: 60px;
+  }
+  #section-faq h2 {
+    font-size: 80px;
+    margin-left: 100px;
+  }
+  #section-quienes-somos {
+
+  }
+  #section-quienes-somos .container-box-quienes-somos {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+  }
+  #section-quienes-somos .box-quienes-somos {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.14);
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #section-galeria a {
+    font-size: 90px;
+  }
+  #section-galeria a:hover {
+    font-size: 95px;
+  }
+  #section-quienes-somos .box-quienes-somos {
+    width: 400px;
+    font-size: 17px;
+  }
+  header h1 {
+    letter-spacing: 20px;
+  }
+  #section-faq .container-box-faq {
+    width: 500px;
+    margin: 10px;
+  }
+}
+
+
+/* RESPONSIVE MOVIL */
+
+@media screen and (max-width: 640px) and (min-width: 375px) {
+  header h1 {
+    text-align: center;
+  }
+  #section-galeria a {
+    font-size: 70px;
+  }
+  #section-galeria a:hover {
+    font-size: 75px;
+  }
+  #section-faq .box-faq {
+    height: 180px;
+    margin: 10px;
+  }
+  #section-faq {
+    height: 1600px;
+    display: flex;
+  }
 }

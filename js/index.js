@@ -21,7 +21,18 @@ $(document).ready(function() {
   slidesToShow: 1,
   centerMode: true,
   variableWidth: true,
-});
+  });
+
+
+  var mySwiper = new Swiper('.swiper-container', {
+    direction: 'horizontal',
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
 
   /*AOS js*/
 
@@ -31,7 +42,7 @@ $(document).ready(function() {
 
   var scroll = new SmoothScroll('a[href*="#"]');
 
-})
+});
 
 /* Carga de contenido de secciones en galeria.html con el menú*/
 
