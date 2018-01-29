@@ -40,6 +40,9 @@ Slick | http://kenwheeler.github.io/slick/ | Librería carousel
 Buttons | http://unicorn-ui.com/buttons/ | Librería de botones
 JQuery | https://jquery.com/ | Librería JS
 CookieBar | https://carlwoodhouse.github.io/jquery.cookieBar/ | Librería creación de cookies
+Swiper | http://idangero.us/swiper/demos/ | Librería de swiper/slider
+Favicon Generator | https://realfavicongenerator.net/ | Genera los favicon 
+Inkscape | https://inkscape.org/es/ | Diseño del logo 
 
 ## Referencias
 Web | Enlace 
