@@ -40,6 +40,9 @@ Slick | http://kenwheeler.github.io/slick/ | Librería carousel
 Buttons | http://unicorn-ui.com/buttons/ | Librería de botones
 JQuery | https://jquery.com/ | Librería JS
 CookieBar | https://carlwoodhouse.github.io/jquery.cookieBar/ | Librería creación de cookies
+Swiper | http://idangero.us/swiper/demos/ | Librería de swiper/slider
+Favicon Generator | https://realfavicongenerator.net/ | Genera los favicon 
+Inkscape | https://inkscape.org/es/ | Diseño del logo 
 
 ## Referencias
 Web | Enlace 
@@ -65,6 +68,23 @@ Menu nav | Se añade la sección _**FAQ**_ para las aclaraciones en cuanto a las
 
 ![Boceto fase 2 Lucas Kids](https://github.com/albaMaria/lucaskids/blob/master/img/bocetolucaskids.png "Boceto Lucas Kids fase 2")
 
+### **Fase 3: final**
+
+Cambio | Descripción
+------------ | ------------- 
+Sección Home | Se cambia de lugar el formulario y cambia a posicionarse debajo del slider de novedades
+Menú categorias | En galeria.html cambian las secciones por 3 (bebé, niño, niña)
+Contenido galeria.html | Los contenidos (sliders) cambian a posicionarse en el mismo lugar junto al menú, en el que va apareciendo cada uno dependiendo de qué sección hayas hecho click
+Galeria.html | Antes de visualizar cada sección aparece un slider de novedades parecido al de sección Home
+
+**Index.html**
+
+![fase final Lucas Kids](https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/capturaLucasKids.png "fase final lucas kids")
+
+**Galeria.html**
+
+![fase final Lucas Kids](https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/capturaLucasKids2.png "fase final lucas kids")
+
 ## Responsive
 ### **Tablet**
 ![responsive tablet Lucas Kids](https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/bocetoResponsiveTablet.png "Boceto responsive tablet")
@@ -72,3 +92,6 @@ Menu nav | Se añade la sección _**FAQ**_ para las aclaraciones en cuanto a las
 ### **Móvil**
 ![responsive movil Lucas Kids](https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/bocetoResponsiveMovil.png "Boceto responsive movil")
 
+## To Do
+- Mejorar galeria.html en cuanto el diseño, añadiendo prendas específicas junto los precios. 
+- Añadir la opción de compra y lo que conlleva todo su funcionamiento.
