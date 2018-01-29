@@ -63,16 +63,19 @@ function cargaContenido(seccion) {
       $('.seccion-bebe').css('display', 'block');
       $('.seccion-ninio').css('display', 'none');
       $('.seccion-ninia').css('display', 'none');
+      $('.rebajas').css('display', 'none');
       break;
     case 'seccion-ninio':
       $('.seccion-bebe').css('display', 'none');
       $('.seccion-ninio').css('display', 'block');
       $('.seccion-ninia').css('display', 'none');
+      $('.rebajas').css('display', 'none');
       break;
     case 'seccion-ninia':
       $('.seccion-bebe').css('display', 'none');
       $('.seccion-ninio').css('display', 'none');
       $('.seccion-ninia').css('display', 'block');
+      $('.rebajas').css('display', 'none');
       break;
   }
 }
