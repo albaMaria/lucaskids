@@ -25,6 +25,7 @@ $(document).ready(function() {
 
   var mySwiper = new Swiper('.swiper-container', {
     direction: 'horizontal',
+    autoHeight: true,
     loop: true,
     navigation: {
       nextEl: '.swiper-button-next',
@@ -48,7 +49,7 @@ $(document).ready(function() {
 
 window.onload = function() {
 var elevator = new Elevator({
-  
+
   element: document.querySelector('.elevator-button'),
   duration: 1000
 });

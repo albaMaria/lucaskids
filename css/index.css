@@ -81,7 +81,7 @@ p, span, li {
 
 .swiper-container {
   max-width: 77%;
-  max-height: 450px;
+  max-height: 600px;
 }
 
 .swiper-slide img {
@@ -367,7 +367,7 @@ form input {
 }
 
 .contenido-seccion {
-  width:70%;
+  max-width: 70%;
   height: 550px;
 }
 
@@ -387,6 +387,7 @@ form input {
 
 .rebajas {
   display: block;
+  max-height: 450px;
 }
 
 .rebajas .swiper-wrapper {
