@@ -41,9 +41,6 @@ $(document).ready(function() {
 
   var scroll = new SmoothScroll('a[href*="#"]');
 
-  if (section === '#section-home') {
-    $('.elevator-button').css('display', 'none');
-  }
 
 });
 
@@ -51,9 +48,20 @@ $(document).ready(function() {
 
 window.onload = function() {
 var elevator = new Elevator({
+  
   element: document.querySelector('.elevator-button'),
   duration: 1000
 });
+
+$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  if (scroll > 250) {
+    $('.elevator-button').show();
+  } else {
+    $('.elevator-button').hide();
+  }
+});
+
 }
 
 /* Carga de contenido de secciones en galeria.html con el menú*/
