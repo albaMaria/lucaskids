@@ -397,6 +397,10 @@ footer {
 }
 
 .elevator-button {
+  position: fixed;
+  bottom: 0px;
+  z-index: 2;
+  width: 95%;
   color: rgb(218, 138, 110);
   font-size: 60px;
   text-align: right;

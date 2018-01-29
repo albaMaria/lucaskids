@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
   /*COOKIES*/
-
   $('.cookie-message').cookieBar({ closeButton : '.my-close-button' });
 
   /*SLIDERS*/
@@ -42,17 +41,22 @@ $(document).ready(function() {
 
   var scroll = new SmoothScroll('a[href*="#"]');
 
+  if (section === '#section-home') {
+    $('.elevator-button').css('display', 'none');
+  }
+
 });
 
-/* Carga de contenido de secciones en galeria.html con el menú*/
+/*Botón elevador*/
 
 window.onload = function() {
 var elevator = new Elevator({
   element: document.querySelector('.elevator-button'),
-  duration: 1000 // milliseconds
+  duration: 1000
 });
 }
 
+/* Carga de contenido de secciones en galeria.html con el menú*/
 function cargaContenido(seccion) {
   switch (seccion) {
     case 'seccion-bebe':
