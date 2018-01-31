@@ -90,7 +90,7 @@ Galeria.html | Antes de visualizar cada sección aparece un slider de novedades 
 ![responsive tablet Lucas Kids](https://albamaria.github.io/lucaskids/img/bocetoResponsiveTablet.png "Boceto responsive tablet")
 
 ### **Fase final: tablet**
-![fase final responsive tablet](https://albamaria.github.io/lucaskids/img/responsive-tablet.png?raw=true "fase final responsive tablet lucas kids")
+![fase final responsive tablet](https://albamaria.github.io/lucaskids/img/responsive-tablet.png "fase final responsive tablet lucas kids")
 ![fase final responsive tablet](https://albamaria.github.io/lucaskids/img/responsive-tablet-galeria.png "fase final responsive tablet lucas kids")
 
 ### **Móvil**
