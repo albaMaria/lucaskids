@@ -90,16 +90,16 @@ Galeria.html | Antes de visualizar cada sección aparece un slider de novedades 
 ![responsive tablet Lucas Kids](https://albamaria.github.io/lucaskids/img/bocetoResponsiveTablet.png "Boceto responsive tablet")
 
 ### **Fase final: tablet**
-![fase final responsive tablet](https://github.com/albaMaria/lucaskids/blob/master/img/responsive-tablet.png?raw=true "fase final responsive tablet lucas kids")
-![fase final responsive tablet](https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/responsive-tablet-galeria.png "fase final responsive tablet lucas kids")
+![fase final responsive tablet](https://albamaria.github.io/lucaskids/img/responsive-tablet.png?raw=true "fase final responsive tablet lucas kids")
+![fase final responsive tablet](https://albamaria.github.io/lucaskids/img/responsive-tablet-galeria.png "fase final responsive tablet lucas kids")
 
 ### **Móvil**
 ![responsive movil Lucas Kids](https://albamaria.github.io/lucaskids/img/bocetoResponsiveMovil.png "Boceto responsive movil")
 
 ### **Fase final: movil**
-![responsive movil Lucas Kids](https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/responsive-movil.png "Boceto responsive movil")
+![responsive movil Lucas Kids](https://albamaria.github.io/lucaskids/img/responsive-movil.png "Boceto responsive movil")
 
-![responsive movil Lucas Kids](https://raw.githubusercontent.com/albaMaria/lucaskids/master/img/responsive-movil-galeria.png "Boceto responsive movil")
+![responsive movil Lucas Kids](https://albamaria.github.io/lucaskids/img/responsive-movil-galeria.png "Boceto responsive movil")
 ## To Do
 - Mejorar galeria.html en cuanto el diseño, añadiendo prendas específicas junto los precios.
 - Añadir la opción de compra y lo que conlleva todo su funcionamiento.
